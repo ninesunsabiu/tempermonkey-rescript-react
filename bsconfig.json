@@ -1,0 +1,21 @@
+{
+    "name": "zhiwei-daily-report-content-gen",
+    "sources": [
+      {
+        "dir": "src",
+        "subdirs": true
+      }
+    ],
+    "package-specs": [
+      {
+        "module": "es6-global",
+        "in-source": true
+      }
+    ],
+    "suffix": ".bs.js",
+    "reason": {
+        "react-jsx": 3
+    },
+    "bs-dependencies": ["@ryyppy/rescript-promise", "rescript-jzon", "@rescript/react"]
+  }
+  
